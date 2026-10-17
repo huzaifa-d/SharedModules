@@ -40,6 +40,8 @@ dependencies {
 
     testImplementation 'junit:junit:' + junitVersion
     testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+    testImplementation 'com.squareup.okhttp3:mockwebserver:' + okhttpVersion
+    testImplementation 'com.squareup.okhttp3:okhttp-tls:' + okhttpVersion
     testImplementation project(path: ':sharedtests')
     testImplementation project(path: ':sharedutils')
 
